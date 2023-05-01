@@ -1,6 +1,6 @@
 # Function to know if it's a number of Friedman
-def if_friedman(cal):
-    if cal == 736 or 343 or 365 or 1285 or 2187:
+def if_friedman(cal_1, cal_2, cal_3, cal_4, cal_5):
+    if cal_1 or cal_2 or cal_3 or cal_4 or cal_5 == 736 or 343 or 724 or 1285 or 2187:
         print(f"{cal} Est un nombre de Friedman")
 
 # Globales variables
