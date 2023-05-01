@@ -11,6 +11,7 @@ fourth_cal = (1 + 2**8) * 5
 fifth_cal = (2 + 1**8)**7
 
 # Resolution
+result = if_friedman(first_cal)
 
 # Print out result
 print(result)
